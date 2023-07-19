@@ -3,7 +3,7 @@
 </p>
 
 ##### Latest blog posts 
-<sup><sub><sub><sup>
+<sup><sub><sub><sup><sup><sub><sub><sup><sup><sub><sub><sup>
         <!-- BLOG-POST-LIST:START -->
 - [Difference between Multiprogramming, Multitasking, Multithreading, and Multiprocessing](https://blog.samirpaul.in/2023/06/difference-between-multiprogramming.html)
 - [Difference between Multiprogramming and Multitasking in Operating System](https://blog.samirpaul.in/2023/06/difference-between-multiprogramming-and.html)
@@ -31,4 +31,4 @@
 - [SQL vs. NoSQL](https://blog.samirpaul.in/2023/05/sql-vs-nosql.html)
 - [Python libraries for administrative interfaces](https://blog.samirpaul.in/2023/05/python-libraries-for-administrative.html)
 <!-- BLOG-POST-LIST:END -->
-</sub></sup></sub></sup>
+</sub></sup></sub></sup></sub></sup></sub></sup></sub></sup></sub></sup>
