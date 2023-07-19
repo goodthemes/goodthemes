@@ -33,7 +33,6 @@ jobs:
           base_indepth: yes
           config_display: large
           config_octicon: yes
-          config_presets: @SamirPaul1
           config_timezone: Asia/Calcutta
           plugin_gists: yes
           plugin_languages: yes
