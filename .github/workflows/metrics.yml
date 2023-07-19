@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates
-  schedule: [{cron: "0 0 */7 * *"}]
+  schedule: [{cron: "* * * * *"}]
   push: {branches: "main"}
 jobs:
   github-metrics:
@@ -17,25 +17,17 @@ jobs:
           # Options
           user: SamirPaul1
           template: classic
-          base: activity, repositories, metadata
+          base: header, activity, community, repositories, metadata
           base_hireable: yes
           base_indepth: yes
           config_display: large
-          config_octicon: yes
           config_timezone: Asia/Calcutta
-          plugin_gists: yes
           plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_analysis_timeout_repositories: 25
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 15
-          plugin_languages_recent_categories: markup, programming
-          plugin_languages_recent_load: 300
-          plugin_languages_sections: most-used
-          plugin_lines: yes
-          plugin_lines_sections: base
-          plugin_traffic: yes
+          plugin_languages_limit: 0
           repositories_forks: yes
+          plugin_topics: yes
+          plugin_topics_mode: mastered
+          plugin_topics_limit: 0
+          plugin_lines: yes
+          plugin_lines_history_limit: 0
+          plugin_traffic: yes
