@@ -18,8 +18,6 @@ jobs:
           user: SamirPaul1
           template: classic
           base: header, activity, community, repositories, metadata
-          base_hireable: yes
-          base_indepth: yes
           config_display: large
           config_timezone: Asia/Calcutta
           plugin_languages: yes
